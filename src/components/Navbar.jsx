@@ -1,7 +1,17 @@
+import Avatar from '@mui/material/Avatar';
+import { NavbarContainer, TagUser } from '../styles/styles';
 
-
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div>Nabvar</div>
+    <div>
+      <NavbarContainer>
+      <Avatar src="/broken-image.jpg" />
+        <TagUser>
+          <p>Usuario_Administrador</p>
+        </TagUser> 
+      </NavbarContainer>
+    </div>
   )
 }
+
+export default Navbar

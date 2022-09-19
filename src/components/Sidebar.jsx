@@ -1,4 +1,4 @@
-import { ListItem, Logo, SideBar, Ul } from '../styles/styles';
+import { ListItem, Logo, SideBar, Ul, Span } from '../styles/styles';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import PointOfSaleOutlinedIcon from '@mui/icons-material/PointOfSaleOutlined';
 import EditNotificationsOutlinedIcon from '@mui/icons-material/EditNotificationsOutlined';
@@ -11,35 +11,36 @@ const Sidebar = () => {
   return (
     <SideBar>
         <Logo>DOG PARK</Logo>
+      
         <Ul>
             <ListItem>
                 <SettingsOutlinedIcon />
-                <span>Configuración de ususario</span>
+                <Span>Configuración de ususario</Span>
             </ListItem>
             <ListItem>
                 <PointOfSaleOutlinedIcon />
-                Control de ventas
+                <Span>Control de ventas</Span>
             </ListItem>
-            <li>
+            <ListItem>
                 <EditNotificationsOutlinedIcon />
-                Control de notificaciones
-            </li>
-            <li>
+                <Span>Control de notificaciones</Span>
+            </ListItem>
+            <ListItem>
                 <ManageAccountsOutlinedIcon />
-                Gestión de auxiliares
-            </li>
-            <li>
+                <Span>Gestión de auxiliares</Span>
+            </ListItem>
+            <ListItem>
                 <CreditScoreOutlinedIcon />
-                Gestión de suscripciones
-            </li>
-            <li>
+                <Span>Gestión de suscripciones</Span>
+            </ListItem>
+            <ListItem>
                 <DashboardOutlinedIcon />
-                Productos y servicios
-            </li>
-            <li>
+                <Span>Productos y servicios</Span>
+            </ListItem>
+            <ListItem>
                 <InputOutlinedIcon />
-                Cerrar sesión
-            </li>
+                <Span>Cerrar sesión</Span>
+            </ListItem>
         </Ul>
     </SideBar>
   )
