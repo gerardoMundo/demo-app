@@ -1,5 +1,6 @@
 import styled, {createGlobalStyle} from 'styled-components';
 
+
 export const GlobalStyles = createGlobalStyle`
 * {
     margin: 0;
@@ -84,11 +85,13 @@ color: #EAE3D2;
 padding: 15px;
 display: flex;
 align-items: center;
+text-decoration: none;
 cursor: pointer;
 &:hover{
     background-color: #1C3879
 }
 `
+
 export const Span = styled.span`
 font-weight: 500;
 font-size: 16px;

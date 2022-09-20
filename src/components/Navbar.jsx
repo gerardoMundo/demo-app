@@ -7,7 +7,7 @@ const Navbar = () => {
       <NavbarContainer>
       <Avatar src="/broken-image.jpg" />
         <TagUser>
-          <p>Usuario_Administrador</p>
+          <p>Administrador</p>
         </TagUser> 
       </NavbarContainer>
     </div>
